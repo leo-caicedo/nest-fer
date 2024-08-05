@@ -63,4 +63,8 @@ export class BrandsService {
 
     return 'Brand removed'
   }
+
+  fillData(brands: Brand[]) {
+    this.brands = brands
+  }
 }

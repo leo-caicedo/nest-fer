@@ -61,4 +61,8 @@ export class CarsService {
 
     return 'Car removed'
   }
+
+  fillData(cars: Car[]) {
+    this.cars = cars
+  }
 }
